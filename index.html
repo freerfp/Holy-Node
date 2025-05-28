@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Holy Nodes - Minecraft & VPS Hosting</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #000;
+      color: white;
+      overflow-x: hidden;
+    }
+    .lightning-bg {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: url('https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif') center/cover no-repeat;
+      opacity: 0.2;
+    }
+    .animate-fade-in {
+      animation: fadeIn 1.5s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .btn-glow {
+      transition: all 0.3s ease;
+    }
+    .btn-glow:hover {
+      box-shadow: 0 0 15px #facc15;
+      transform: scale(1.05);
+    }
+    .bolt {
+      display: inline-block;
+      animation: flicker 1s infinite;
+    }
+    @keyframes flicker {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+  </style>
+</head>
+<body>
+  <div class="lightning-bg"></div>
+  <header class="bg-black bg-opacity-80 p-6 shadow-lg animate-fade-in">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl text-yellow-400 font-bold"><span class="bolt">⚡</span> Holy Nodes</h1>
+      <nav>
+        <ul class="flex gap-6 text-yellow-300">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#minecraft">Minecraft Plans</a></li>
+          <li><a href="#vps">VPS Plans</a></li>
+          <li><a href="#support">Support</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://panel.holynodes.fun" target="_blank">Panel</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6 text-yellow-400">Contact Us</h2>
+      <p class="text-lg mb-4">Have questions? Reach out to our team anytime!</p>
+      <p class="text-lg mb-6">Email Support or Join our 24/7 Discord Support.</p>
+      <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="bg-yellow-400 text-black font-bold py-2 px-6 rounded-full btn-glow">Join Discord</a>
+    </div>
+  </section>
+
+</body>
+</html>
+</header></header>
+
+  <section id="features" class="py-16 px-6 max-w-6xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-yellow-400 mb-6">Enterprise-Grade Hosting Solutions</h2>
+    <p class="text-lg mb-8">
+      Deploy high-performance Minecraft servers and VPS instances with enterprise-grade infrastructure.<br />
+      Advanced DDoS protection, instant provisioning, and 24/7 expert support included.
+    </p>
+    <div class="flex justify-center gap-6 mb-16">
+      <a href="#minecraft" class="btn-glow bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold">Get Started - Minecraft</a>
+      <a href="#vps" class="btn-glow bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold">Get Started - VPS</a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mx-auto text-left text-white">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Instant Setup</h3>
+        <p>Get your server or VPS running in under 60 seconds with our one-click installer.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">99.9% Uptime</h3>
+        <p>Reliable infrastructure ensuring your servers stay online almost all the time.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">24/7 Support</h3>
+        <p>Our expert team is always available to help with any issues or questions.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Minecraft Server Dashboard</h3>
+        <p>Manage your servers easily with our intuitive and powerful control panel.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="features-detail" class="py-20 px-6 max-w-6xl mx-auto bg-gray-900 bg-opacity-70 rounded-xl text-center text-yellow-400">
+    <h2 class="text-3xl font-bold mb-8">Why Choose Holy Nodes?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+      <div>
+        <h3 class="font-semibold mb-2">DDoS Protection</h3>
+        <p>Enterprise-grade DDoS protection keeps your server or VPS online even during attacks.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">High Performance</h3>
+        <p>Latest generation CPUs and NVMe SSDs for the best possible performance.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">Global Network</h3>
+        <p>Multiple data centers worldwide ensure low latency for all your players and applications.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">Automatic Backups</h3>
+        <p>Daily automated backups keep your world and data safe and easily restorable.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="minecraft" class="py-20 px-6 max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-10">Minecraft Hosting Plans</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+        <h3 class="text-2xl font-semibold mb-2">Grass Plan</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹70 / month</p>
+        <ul class="mb-4 text-left list-disc list-inside">
+          <li>2 GB RAM Powerful Server</li>
+          <li>10 Slots</li>
+          <li>DDoS Protection</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+        <h3 class="text-2xl font-semibold mb-2">Wood Plan</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹140 / month</p>
+        <ul class="mb-4 text-left list-disc list-inside">
+          <li>4 GB RAM Powerful Server</li>
+          <li>20 Slots</li>
+          <li>DDoS Protection</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+        <h3 class="text-2xl font-semibold mb-2">Stone Plan</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹290 / month</p>
+        <ul class="mb-4 text-left list-disc list-inside">
+          <li>6 GB RAM Powerful Server</li>
+          <li>40 Slots</li>
+          <li>DDoS Protection</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+        <h3 class="text-2xl font-semibold mb-2">Copper Plan</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹360 / month</p>
+        <ul class="mb-4 text-left list-disc list-inside">
+          <li>8 GB RAM Powerful Server</li>
+          <li>60 Slots</li>
+          <li>DDoS Protection</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+        <h3 class="text-2xl font-semibold mb-2">Iron Plan</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹460 / month</p>
+        <ul class="mb-4 text-left list-disc list-inside">
+          <li>10 GB RAM Powerful Server</li>
+          <li>80 Slots</li>
+          <li>DDoS Protection</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+        <h3 class="text-2xl font-semibold mb-2">Gold Plan</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹530 / month</p>
+        <ul class="mb-4 text-left list-disc list-inside">
+          <li>12 GB RAM Powerful Server</li>
+          <li>100 Slots</li>
+          <li>DDoS Protection</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+        <h3 class="text-2xl font-semibold mb-2">Emerald Plan</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹670 / month</p>
+        <ul class="mb-4 text-left list-disc list-inside">
+          <li>16 GB RAM Most Powerful Server</li>
+          <li>120 Slots</li>
+          <li>DDoS Protection</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="vps" class="py-20 px-6 max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-10">VPS Hosting Plans</h2>
+    <p class="mb-10 max-w-3xl mx-auto">
+      Our VPS instances are perfect for all your needs — fast, secure, and scalable.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg text-left text-white">
+        <h3 class="text-2xl font-semibold mb-2">VPS S</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹650.00 / month</p>
+        <ul class="mb-4 list-disc list-inside">
+          <li>4 vCores CPU</li>
+          <li>16GB DDR4 RAM</li>
+          <li>100GB SSD Storage</li>
+          <li>Unmetered Bandwidth</li>
+          <li>DDoS Protection</li>
+          <li>Full Root Access</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg text-left text-white">
+        <h3 class="text-2xl font-semibold mb-2">VPS M</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹890.00 / month</p>
+        <ul class="mb-4 list-disc list-inside">
+          <li>6 vCores CPU</li>
+          <li>32GB DDR4 RAM</li>
+          <li>350GB SSD Storage</li>
+          <li>Unmetered Bandwidth</li>
+          <li>DDoS Protection</li>
+          <li>Full Root Access</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg text-left text-white">
+        <h3 class="text-2xl font-semibold mb-2">VPS L</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹1,400.00 / month</p>
+        <ul class="mb-4 list-disc list-inside">
+          <li>9 vCores CPU</li>
+          <li>64GB DDR4 RAM</li>
+          <li>530GB SSD Storage</li>
+          <li>Unmetered Bandwidth</li>
+          <li>DDoS Protection</li>
+          <li>Full Root Access</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg text-left text-white">
+        <h3 class="text-2xl font-semibold mb-2">VPS XL</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹2,000.00 / month</p>
+        <ul class="mb-4 list-disc list-inside">
+          <li>16 vCores CPU</li>
+          <li>70GB DDR4 RAM</li>
+          <li>820GB NVMe Storage</li>
+          <li>Unmetered Bandwidth</li>
+          <li>DDoS Protection</li>
+          <li>Full Root Access</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg text-left text-white">
+        <h3 class="text-2xl font-semibold mb-2">VPS XXL</h3>
+        <p class="text-yellow-400 text-lg mb-4">₹3,499.00 / month</p>
+        <ul class="mb-4 list-disc list-inside">
+          <li>16 vCores CPU</li>
+          <li>128GB DDR4 RAM</li>
+          <li>1TB NVMe Storage</li>
+          <li>Unmetered Bandwidth</li>
+          <li>DDoS Protection</li>
+          <li>Full Root Access</li>
+        </ul>
+        <a href="https://discord.gg/F4UFBXa8C4" target="_blank" class="btn-glow bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold inline-block">Order Now</a>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="support" class="py-20 px-6 max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-6">24/7 Expert Support</h2>
+    <p>
+      We’re here for you around the clock to make sure your servers and VPS are always running smoothly.
+    </p>
+  </section>
+
+  <section id="contact" class="py-20 px-6 max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-6">Contact Us</h2>
+    <p class="mb-6">Have questions? Reach out to our team anytime!</p>
+    <a href="mailto:support@holynodes.com" class="btn-glow bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold">Email Support</a>
+  </section>
+</body>
+</html>
